@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meta IT School — Zamonaviy IT va Robototexnika Markazi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Fon nur effektlari -->
+  <div class="bg-glow glow-1" aria-hidden="true"></div>
+  <div class="bg-glow glow-2" aria-hidden="true"></div>
+
+  <!-- Yuqori menyu -->
+  <header class="header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="brand" data-page="home">
+        <span class="brand-badge">M</span>
+        <span class="brand-text">Meta <span>IT School</span></span>
+      </a>
+
+      <button class="burger" id="burgerBtn" aria-label="Menyuni ochish" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#home" class="nav-link active" data-page="home">Bosh sahifa</a>
+        <a href="#courses" class="nav-link" data-page="courses">Kurslar</a>
+        <a href="#about" class="nav-link" data-page="about">Biz haqimizda</a>
+        <a href="#register" class="nav-link" data-page="register">Ro'yxatdan o'tish</a>
+      </nav>
+
+      <button class="btn btn-primary btn-sm nav-cta" data-page="register">
+        <span>Kursga yozilish</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- 1-SAHIFA: BOSH SAHIFA -->
+    <section id="page-home" class="page active">
+      <div class="container hero">
+        <div class="hero-content">
+          <div class="pill">Andijon • 7–20 yosh avlod uchun IT markaz</div>
+          <h1 class="hero-title">
+            Kelajak kasblarini <span class="gradient-text">Meta IT School</span> bilan bugun boshlang
+          </h1>
+          <p class="hero-desc">
+            Dasturlash, sun'iy intellekt, robototexnika, grafik dizayn va ingliz tilini amaliy loyihalar asosida o'rganing. Tajribali mentorlar va zamonaviy muhit sizni kutmoqda.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-page="register">
+              <span>Ro'yxatdan o'tish</span>
+              <i class="arrow">→</i>
+            </button>
+            <button class="btn btn-glass" data-page="courses">
+              <span>Kurslarni ko'rish</span>
+            </button>
+          </div>
+
+          <div class="stats-row">
+            <div class="stat-card">
+              <strong>7–20</strong>
+              <span>Yosh oralig'i</span>
+            </div>
+            <div class="stat-card">
+              <strong>8+</strong>
+              <span>Zamonaviy yo'nalish</span>
+            </div>
+            <div class="stat-card">
+              <strong>100%</strong>
+              <span>Amaliy mashg'ulot</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glass-card showcase-card">
+            <div class="showcase-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="showcase-tag">meta_it_school.uz</span>
+            </div>
+            <div class="showcase-body">
+              <div class="feature-mini">
+                <div class="mini-icon">⚡</div>
+                <div>
+                  <h3>Frontend & Full Stack</h3>
+                  <p>HTML, CSS, JavaScript, React va zamonaviy web tizimlar</p>
+                </div>
+              </div>
+              <div class="feature-mini">
+                <div class="mini-icon">🤖</div>
+                <div>
+                  <h3>Robototexnika & AI</h3>
+                  <p>Arduino, sensorlar, aqlli qurilmalar va sun'iy intellekt</p>
+                </div>
+              </div>
+              <div class="feature-mini">
+                <div class="mini-icon">🎨</div>
+                <div>
+                  <h3>Grafik Dizayn & Ingliz tili</h3>
+                  <p>UI/UX, brending va IT sohasiga mos ingliz tili</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Afzalliklar bo'limi -->
+      <div class="container section-block">
+        <div class="section-head">
+          <span class="eyebrow">AFZALLIKLAR</span>
+          <h2>Nima uchun aynan <span class="gradient-text">Meta IT School</span>?</h2>
+          <p>O'quvchilarning real natija ko'rsatishi va portfolio yig'ishi uchun barcha sharoit yaratilgan.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="card-icon">💻</div>
+            <h3>Amaliy ta'lim</h3>
+            <p>Faqat quruq nazariya emas — har bir mavzu real loyihalar va amaliy vazifalar orqali mustahkamlanadi.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">👨‍🏫</div>
+            <h3>Kuchli mentorlar</h3>
+            <p>Sohada tajribali ustozlar har bir o'quvchiga individual yondashib, o'sishini kuzatib boradi.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">🚀</div>
+            <h3>Portfolio va muhit</h3>
+            <p>Kurs yakunida tayyor loyihalar portfeli, IT hamjamiyati, musobaqalar va zamonaviy auditoriyalar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2-SAHIFA: KURSLAR -->
+    <section id="page-courses" class="page">
+      <div class="container section-block">
+        <div class="section-head">
+          <span class="eyebrow">O'QUV YO'NALISHLARI</span>
+          <h2>Bizning <span class="gradient-text">kurslarimiz</span></h2>
+          <p>O'zingizga mos yo'nalishni tanlang va bir necha soniyada ro'yxatdan o'ting.</p>
+        </div>
+
+        <div class="courses-grid" id="coursesList">
+          <article class="card course-card">
+            <div class="course-top">
+              <span class="badge">Web Dasturlash</span>
+              <span class="level">0 dan</span>
+            </div>
+            <h3>Frontend Dasturlash</h3>
+            <p>HTML5, CSS3, zamonaviy JavaScript va interaktiv veb-saytlar yaratishni o'rganing.</p>
+            <button class="btn btn-glow select-course-btn" data-course="Frontend Dasturlash">
+              <span>Shu yo'nalishga yozilish</span>
+            </button>
+          </article>
+
+          <article class="card course-card">
+            <div class="course-top">
+              <span class="badge">Server & Ma'lumotlar</span>
+              <span class="level">Amaliy</span>
+            </div>
+            <h3>Backend Dasturlash</h3>
+            <p>Server arxitekturasi, API, ma'lumotlar bazalari va xavfsiz tizimlar bilan ishlash.</p>
+            <button class="btn btn-glow select-course-btn" data-course="Backend Dasturlash">
+              <span>Shu yo'nalishga yozilish</span>
+            </button>
+          </article>
+
+          <article class="card course-card">
+            <div class="course-top">
+              <span class="badge">To'liq Sikl</span>
+              <span class="level">Kuchaytirilgan</span>
+            </div>
+            <h3>Full Stack Dasturlash</h3>
+            <p>Frontend va Backend texnologiyalarini birlashtirib, mustaqil veb-ilova va loyihalar yarating.</p>
+            <button class="btn btn-glow select-course-btn" data-course="Full Stack Dasturlash">
+              <span>Shu yo'nalishga yozilish</span>
+            </button>
+          </article>
+
+          <article class="card course-card">
+            <div class="course-top">
+              <span class="badge">Kelajak Texnologiyasi</span>
+              <span class="level">Trend</span>
+            </div>
+            <h3>Sun'iy Intellekt (AI)</h3>
+            <p>Zamonaviy AI vositalari, prompt engineering va aqlli yechimlar bilan ishlash ko'nikmalari.</p>
+            <button class="btn btn-glow select-course-btn" data-course="Sun'iy Intellekt (AI)">
+              <span>Shu yo'nalishga yozilish</span>
+            </button>
+          </article>
+
+          <article class="card course-card">
+            <div class="course-top">
+              <span class="badge">Muhandislik</span>
+              <span class="level">7–19 yosh</span>
+            </div>
+            <h3>Robototexnika</h3>
+            <p>Mikrokontrollerlar, sensorlar va mexanika yordamida aqlli robotlar va qurilmalar yasash.</p>
+            <button class="btn btn-glow select-course-btn" data-course="Robototexnika">
+              <span>Shu yo'nalishga yozilish</span>
+            </button>
+          </article>
+
+          <article class="card course-card">
+            <div class="course-top">
+              <span class="badge">Vizual San'at</span>
+              <span class="level">Ijodiy</span>
+            </div>
+            <h3>Grafik Dizayn</h3>
+            <p>Logotiplar, bannerlar, ijtimoiy tarmoq postlari va UI/UX dizayn asoslarini o'rganing.</p>
+            <button class="btn btn-glow select-course-btn" data-course="Grafik Dizayn">
+              <span>Shu yo'nalishga yozilish</span>
+            </button>
+          </article>
+
+          <article class="card course-card">
+            <div class="course-top">
+              <span class="badge">Til Bilimi</span>
+              <span class="level">Speaking & IT</span>
+            </div>
+            <h3>Ingliz Tili</h3>
+            <p>Erkin muloqot (Speaking), grammatika va xalqaro IT hujjatlar bilan ishlash uchun ingliz tili.</p>
+            <button class="btn btn-glow select-course-btn" data-course="Ingliz Tili">
+              <span>Shu yo'nalishga yozilish</span>
+            </button>
+          </article>
+
+          <article class="card course-card">
+            <div class="course-top">
+              <span class="badge">Asoslar</span>
+              <span class="level">Boshlang'ich</span>
+            </div>
+            <h3>IT Savodxonligi</h3>
+            <p>Kompyuter bilan ishlash, ofis dasturlari, tezkor klaviatura va raqamli xavfsizlik asoslari.</p>
+            <button class="btn btn-glow select-course-btn" data-course="IT Savodxonligi">
+              <span>Shu yo'nalishga yozilish</span>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3-SAHIFA: BIZ HAQIMIZDA -->
+    <section id="page-about" class="page">
+      <div class="container section-block">
+        <div class="section-head">
+          <span class="eyebrow">MARKAZ HAQIDA</span>
+          <h2><span class="gradient-text">Meta IT School</span> — Andijondagi zamonaviy ta'lim maskani</h2>
+          <p>Biz yoshlarni shunchaki dastur ishlatishga emas, balki muammolarga texnologik yechim topishga o'rgatamiz.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="card about-info">
+            <h3>Bizning maqsadimiz</h3>
+            <p>
+              Meta IT School o'quv markazi Andijon shahrida yosh avlodni zamonaviy IT va robototexnika sohalariga tayyorlaydi. O'quvchilar dars davomida nazariyani amaliyot bilan bog'lab, o'z ilk loyihalarini yaratadilar.
+            </p>
+            <ul class="info-list">
+              <li><strong>Manzil:</strong> Andijon shahri, Milliy Tiklanish ko'chasi, 11V</li>
+              <li><strong>Telefon:</strong> +998 94 154 44 88</li>
+              <li><strong>Telegram kanal:</strong> @metaitschool</li>
+              <li><strong>Administrator:</strong> @metaitschool_admin</li>
+              <li><strong>Ish vaqti:</strong> Har kuni 20:00 gacha</li>
+            </ul>
+          </div>
+
+          <div class="card process-card">
+            <h3>O'qish jarayoni qanday kechadi?</h3>
+            <div class="steps">
+              <div class="step">
+                <span>01</span>
+                <div>
+                  <h4>Yo'nalishni tanlash</h4>
+                  <p>Qiziqish va maqsadingizga mos kursni tanlaysiz.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span>02</span>
+                <div>
+                  <h4>Ro'yxatdan o'tish va suhbat</h4>
+                  <p>Ma'lumotlaringizni yuborasiz va administrator bog'lanadi.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span>03</span>
+                <div>
+                  <h4>Amaliy darslar va loyihalar</h4>
+                  <p>Mentorlar yordamida real loyihalar va portfolio tayyorlaysiz.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4-SAHIFA: RO'YXATDAN O'TISH -->
+    <section id="page-register" class="page">
+      <div class="container section-block">
+        <div class="section-head">
+          <span class="eyebrow">ARIZA QOLDIRISH</span>
+          <h2>Kursga <span class="gradient-text">ro'yxatdan o'tish</span></h2>
+          <p>Quyidagi maydonlarni to'ldiring — arizangiz darhol Telegram kanalimizga yuboriladi.</p>
+        </div>
+
+        <div class="form-wrapper">
+          <form id="registerForm" class="card reg-form" novalidate>
+            <div class="form-group">
+              <label for="fullName">Ismi Familiyasi *</label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Masalan: Azizbek Karimov"
+                required
+              />
+              <small class="error-msg" id="fullNameError"></small>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Telefon Raqami *</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+998 94 123 45 67"
+                  required
+                />
+                <small class="error-msg" id="phoneError"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="age">Yoshi *</label>
+                <input
+                  type="number"
+                  id="age"
+                  name="age"
+                  min="5"
+                  max="80"
+                  placeholder="Masalan: 15"
+                  required
+                />
+                <small class="error-msg" id="ageError"></small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="direction">Yo'nalishni tanlang *</label>
+              <select id="direction" name="direction" required>
+                <option value="" disabled selected>Yo'nalishni tanlang...</option>
+                <option value="Frontend Dasturlash">Frontend Dasturlash</option>
+                <option value="Backend Dasturlash">Backend Dasturlash</option>
+                <option value="Full Stack Dasturlash">Full Stack Dasturlash</option>
+                <option value="Sun'iy Intellekt (AI)">Sun'iy Intellekt (AI)</option>
+                <option value="Robototexnika">Robototexnika</option>
+                <option value="Grafik Dizayn">Grafik Dizayn</option>
+                <option value="Ingliz Tili">Ingliz Tili</option>
+                <option value="IT Savodxonligi">IT Savodxonligi</option>
+              </select>
+              <small class="error-msg" id="directionError"></small>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <span>Arizani yuborish</span>
+              <i class="arrow">✈</i>
+            </button>
+
+            <div id="formStatus" class="form-status" role="alert" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-badge">M</span>
+          <span class="brand-text">Meta <span>IT School</span></span>
+        </div>
+        <p class="footer-desc">
+          Andijon shahri, Milliy Tiklanish ko'chasi, 11V. Zamonaviy IT va robototexnika ta'lim markazi.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Sahifalar</h4>
+        <a href="#home" data-page="home">Bosh sahifa</a>
+        <a href="#courses" data-page="courses">Kurslar</a>
+        <a href="#about" data-page="about">Biz haqimizda</a>
+        <a href="#register" data-page="register">Ro'yxatdan o'tish</a>
+      </div>
+
+      <div class="footer-contacts">
+        <h4>Bog'lanish</h4>
+        <p>Tel: <a href="tel:+998941544488">+998 94 154 44 88</a></p>
+        <p>Telegram: <a href="https://t.me/metaitschool" target="_blank" rel="noopener">@metaitschool</a></p>
+        <p>Admin: <a href="https://t.me/metaitschool_admin" target="_blank" rel="noopener">@metaitschool_admin</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Meta IT School. Barcha huquqlar himoyalangan.</span>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
